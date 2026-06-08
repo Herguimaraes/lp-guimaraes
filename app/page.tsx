@@ -113,7 +113,7 @@ export default function ProposalPage() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-blue-400 font-bold tracking-widest text-xs uppercase mb-4 block">
-              Proposta Comercial No. 2024-520
+              Proposta Comercial No. 2026-06
             </span>
             <h1 className="text-4xl md:text-6xl font-light mb-6 tracking-tight leading-[1.1]">
               Assessoria de Marketing <br />
@@ -149,20 +149,20 @@ export default function ProposalPage() {
               { 
                 step: "01", 
                 title: "Sumário Executivo", 
-                desc: "Estruturação integral do ecossistema de marketing para introduzir capacitações em psicopedagogia nos cenários corporativo e público.",
-                list: ["Autoridade Clínica", "Segurança Jurídica"]
+                desc: "Estruturação integral do ecossistema de marketing para comercializar capacitações, cursos e palestras em psicopedagogia e inclusão social. Foco total em alta autoridade técnica e segurança jurídica.",
+                list: ["Autoridade Clínica", "Segurança Jurídica", "Rigor Científico"]
               },
               { 
                 step: "02", 
-                title: "Objetivo Corporativo", 
-                desc: "Transformar a propriedade intelectual da Dra. Talita Pazeto em uma máquina de vendas robusta, escalável e focada em decisores de RH.",
-                list: ["Foco em Conversão", "Posicionamento Premium"]
+                title: "Alinhamento Estratégico", 
+                desc: "Vender treinamentos em inclusão requer profundo entendimento dos critérios de decisão corporativos e governamentais. Unimos entrega técnica à análise analítica de métricas.",
+                list: ["Visão Executiva (CMO)", "Expertise em Educação", "Cenário B2B/B2G"]
               },
               { 
                 step: "03", 
                 title: "Escopo de Atuação", 
-                desc: "Implementação de ativos digitais de alto valor e operação contínua de campanhas segmentadas para Prefeituras e Empresas.",
-                list: ["Crescimento Orgânico", "Tração Comercial"]
+                desc: "Implementação de ativos digitais premium (Landing Pages segmentadas) e operação contínua de campanhas robustas via Google e Meta Ads.",
+                list: ["Growth Escalável", "Máquina de Vendas", "Base de Leads"]
               }
             ].map((item, i) => (
               <motion.div
@@ -206,9 +206,9 @@ export default function ProposalPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Visão de Direção Executiva (CMO)</h3>
-                  <p className="text-slate-400 leading-relaxed">
-                    Experiência consolidada na liderança de marketing para instituições de treinamento profissional, 
-                    alinhando entrega técnica com análise de métricas e tração comercial.
+                  <p className="text-slate-400 leading-relaxed text-sm">
+                    Liderança consolidada em marketing para instituições de treinamento profissional. 
+                    Experiência direta no alinhamento entre infoprodutos e tração comercial em escala.
                   </p>
                 </div>
               </div>
@@ -217,27 +217,30 @@ export default function ProposalPage() {
                   <Stethoscope className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Expertise em Saúde e Educação</h3>
-                  <p className="text-slate-400 leading-relaxed">
-                    Domínio direto no desenvolvimento de manuais e guias educativos para ambientes clínicos e pediátricos, 
-                    garantindo o rigor científico exigido.
+                  <h3 className="text-xl font-bold mb-2">Histórico Validado em Saúde</h3>
+                  <p className="text-slate-400 leading-relaxed text-sm">
+                    Expertise no desenvolvimento de guias profissionais e materiais educativos para ambiente pediátrico. 
+                    Domínio total do tom de voz exigido pelo público de saúde e educação.
                   </p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-slate-800/50 p-8 rounded-3xl border border-slate-700">
-              <h4 className="text-blue-400 font-bold uppercase tracking-widest text-sm mb-4">Diferencial Único</h4>
-              <p className="text-2xl font-light italic mb-6">
-                &quot;Vender treinamentos em inclusão social e transtornos de aprendizagem requer profundo entendimento 
-                dos critérios de decisão corporativos e governamentais.&quot;
+            <div className="bg-slate-800/50 p-10 border border-slate-700">
+              <h4 className="text-blue-400 font-bold uppercase tracking-widest text-xs mb-4">Diferencial Estratégico</h4>
+              <p className="text-xl font-light italic mb-8 leading-relaxed">
+                &quot;Nossa liderança operacional e capacidade de execução estão respaldadas por uma visão sistêmica: 
+                transformar propriedade intelectual em uma máquina de vendas robusta e escalável.&quot;
               </p>
-              <div className="h-px bg-slate-700 mb-6" />
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-blue-600" />
-                <div>
-                  <p className="font-bold">Direção Estratégica</p>
-                  <p className="text-sm text-slate-500 italic">Guimarães Soluções</p>
+              <div className="h-px bg-slate-700 mb-8" />
+              <div className="grid grid-cols-2 gap-4">
+                <div className="flex items-center gap-2">
+                  <ShieldCheck className="w-4 h-4 text-blue-500" />
+                  <span className="text-[10px] font-bold uppercase tracking-tighter">Segurança Jurídica</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ShieldCheck className="w-4 h-4 text-blue-500" />
+                  <span className="text-[10px] font-bold uppercase tracking-tighter">Conformidade B2G</span>
                 </div>
               </div>
             </div>
@@ -263,10 +266,10 @@ export default function ProposalPage() {
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { title: "Branding Corporativo", desc: "Logotipo e Identidade Visual unificada.", icon: Layout, strategy: "AUTORIDADE CLÍNICA" },
-                  { title: "Ativos Comerciais", desc: "Pitch Decks e templates premium.", icon: FileText, strategy: "PADRÃO CORPORATIVO" },
-                  { title: "Webdesign (LPs)", desc: "Páginas segmentadas B2B e B2G.", icon: Globe, strategy: "TRAÇÃO COMERCIAL" },
-                  { title: "Infra Educacional", desc: "Hospedagem e setup de cursos.", icon: BookOpen, strategy: "EXPERIÊNCIA FLUÍDA" },
+                  { title: "Branding Corporativo", desc: "Logotipo e Identidade Visual unificada para autoridade técnica.", icon: Layout, strategy: "AUTORIDADE CLÍNICA" },
+                  { title: "Ativos Comerciais", desc: "Pitch Decks e templates premium para decisores de alto nível.", icon: FileText, strategy: "PADRÃO CORPORATIVO" },
+                  { title: "Webdesign (LPs)", desc: "Páginas segmentadas e otimizadas para B2B e B2G.", icon: Globe, strategy: "TRAÇÃO COMERCIAL" },
+                  { title: "Infra Educacional", desc: "Hospedagem, setup e automação da plataforma de cursos.", icon: BookOpen, strategy: "EXPERIÊNCIA FLUÍDA" },
                 ].map((item, i) => (
                   <div key={i} className="bg-white p-8 border border-slate-200 shadow-sm flex flex-col group">
                     <div className="w-8 h-0.5 bg-blue-700 mb-6 group-hover:w-full transition-all duration-500" />
@@ -275,6 +278,42 @@ export default function ProposalPage() {
                     <p className="text-xs text-slate-500 mb-6 leading-relaxed">{item.desc}</p>
                     <div className="mt-auto pt-4 border-t border-slate-50">
                       <p className="text-[9px] font-black tracking-widest text-blue-700">{item.strategy}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* 3.2 Continuous */}
+            <div className="pt-16 border-t border-slate-200">
+              <div className="flex items-center gap-3 mb-8">
+                <Calendar className="w-5 h-5 text-blue-700" />
+                <h3 className="text-sm font-bold text-slate-900 uppercase tracking-widest">3.2 Operação Contínua</h3>
+              </div>
+              <div className="grid md:grid-cols-3 gap-8">
+                {[
+                  { 
+                    title: "Direção de Conteúdo", 
+                    desc: "Calendário editorial, roteiros técnicos para vídeos e redação especializada para LinkedIn e Instagram.",
+                    metric: "Engajamento Corporativo" 
+                  },
+                  { 
+                    title: "Gestão de Anúncios", 
+                    desc: "Campanhas Google e Meta Ads focadas em gestores educacionais e executivos de RH.",
+                    metric: "ROAS e CPL Qualificado" 
+                  },
+                  { 
+                    title: "Plataforma & Suporte", 
+                    desc: "Gestão de admissões, suporte técnico e emissão automatizada de certificados para fins públicos.",
+                    metric: "NPS e Taxa de Conclusão" 
+                  },
+                ].map((item, i) => (
+                  <div key={i} className="bg-white p-10 border border-slate-200 shadow-sm flex flex-col">
+                    <h4 className="text-lg font-bold text-slate-900 mb-4">{item.title}</h4>
+                    <p className="text-sm text-slate-500 leading-relaxed mb-8 flex-grow">{item.desc}</p>
+                    <div className="pt-6 border-t border-slate-100 flex items-center justify-between">
+                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-tighter">MÉTRICA DE SUCESSO</span>
+                      <span className="text-[10px] font-bold text-blue-700 uppercase tracking-widest">{item.metric}</span>
                     </div>
                   </div>
                 ))}
@@ -316,7 +355,7 @@ export default function ProposalPage() {
                 <div className="h-10 w- px bg-slate-200" />
                 <div className="flex flex-col items-end">
                   <span className="text-[10px] text-slate-400 uppercase font-bold tracking-tighter mb-1">PRAZO MÍNIMO</span>
-                  <span className="text-4xl font-bold text-slate-900">03 Meses</span>
+                  <span className="text-4xl font-bold text-slate-900">05 Meses</span>
                 </div>
               </div>
 
@@ -364,17 +403,23 @@ export default function ProposalPage() {
                 </div>
               </div>
               <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                Engenheiro com visão sistêmica de funis de vendas. Ex-Analista de Negócios na <strong>Hotmart</strong>, 
-                especialista em BI para produtos digitais. Liderou frentes de receita de instituições como IEPSIS e PIMED.
+                Engenheiro com visão sistêmica e analítica aplicada à construção de funis. 
+                Possui mais de 10 anos no setor educacional como professor acadêmico e autor técnico. 
+                Ex-Analista de Negócios na <strong>Hotmart</strong> (BI e Growth). 
+                Liderou o marketing do <strong>IEPSIS</strong>, <strong>PIMED</strong>, <strong>COMANDO IMPERIAL</strong> e coordenação técnica no <strong>SENAI</strong>.
               </p>
-              <ul className="space-y-2 mt-auto">
-                <li className="flex items-center gap-2 text-xs font-bold text-slate-400">
-                  <CheckCircle2 className="w-4 h-4 text-green-500" />
-                  +10 anos em educação
+              <ul className="grid grid-cols-2 gap-2 mt-auto">
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> +10 anos educação
                 </li>
-                <li className="flex items-center gap-2 text-xs font-bold text-slate-400">
-                  <CheckCircle2 className="w-4 h-4 text-green-500" />
-                  Especialista em BI e ROI
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Especialista BI/ROI
+                </li>
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Autor Literário
+                </li>
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Gestão Sistêmica
                 </li>
               </ul>
             </div>
@@ -389,17 +434,22 @@ export default function ProposalPage() {
                 </div>
               </div>
               <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                Advogada e empresária com ampla vivência em posicionamento de marca e marketing estratégico. 
-                Especialista em transformar conhecimento técnico em ofertas comerciais irresistíveis.
+                Advogada e empresária com ampla vivência em posicionamento estratégico e estruturação de jornadas de compra. 
+                Especialista em transformar conhecimento técnico denso em ofertas comerciais de alto valor, 
+                gerindo funis de relacionamento, campanhas de lançamento e atração de leads qualificados.
               </p>
-              <ul className="space-y-2 mt-auto">
-                <li className="flex items-center gap-2 text-xs font-bold text-slate-400">
-                  <CheckCircle2 className="w-4 h-4 text-green-500" />
-                  Marketing Estratégico
+              <ul className="grid grid-cols-2 gap-2 mt-auto">
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Marketing Jurídico
                 </li>
-                <li className="flex items-center gap-2 text-xs font-bold text-slate-400">
-                  <CheckCircle2 className="w-4 h-4 text-green-500" />
-                  Posicionamento Premium
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Gestão de Funis
+                </li>
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Copy Especializada
+                </li>
+                <li className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase">
+                  <CheckCircle2 className="w-3 h-3 text-green-500" /> Design Estratégico
                 </li>
               </ul>
             </div>
